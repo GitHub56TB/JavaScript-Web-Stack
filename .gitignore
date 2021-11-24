@@ -1,3 +1,11 @@
+node_modules/
+
+#ignore yarn cache
+.yarn/cache
+
+#ignore All cache folders
+cache
+
 #Mac Stuff
 .DS*
 
