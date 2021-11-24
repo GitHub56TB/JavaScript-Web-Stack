@@ -91,7 +91,7 @@ In `dog.js`, we also replace `module.exports = Dog` by `export default Dog`
 
 ESLint works with *rules*, and there are [many of them](http://eslint.org/docs/rules/). Instead of configuring the rules we want for our code ourselves, we will use the config created by Airbnb. This config uses a few plugins, so we need to install those as well.
 
-Check out Airbnb's most recent [instructions](https://www.npmjs.com/package/eslint-config-airbnb) to install the config package and all its dependencies correctly. As of 2017-02-03, they recommend using the following command in your terminal:
+Check out Airbnb's most recent [instructions](https://www.npmjs.com/package/eslint-config-airbnb) to install the config package and all its dependencies correctly. As of 2021-11-24, (use "npm -v" to check the version and "npm install -g npm@latest" to upgrade(Reference: https://docs.npmjs.com/try-the-latest-stable-version-of-npm). they recommend using the following command in your terminal:
 
 ```sh
 npm info eslint-config-airbnb@latest peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add --dev eslint-config-airbnb@latest
