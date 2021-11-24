@@ -1,15 +1,15 @@
 {
-  "name": "js-stack-from-scratch",
-  "version": "2.4.5",
-  "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
+  "name": "js-webstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GitHub56TB/JavaScript-Web-Stack.git",
+  "author": "GitHub56TB <bt228beta@gmail.com>",
+  "license": "MIT",
+  
+  "name": "js-webstack",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
-    "test": "node mdlint.js"
-  },
-  "devDependencies": {
-    "glob": "^7.1.1",
-    "markdownlint": "^0.4.0"
-  },
-  "repository": "verekia/js-stack-from-scratch",
-  "author": "Jonathan Verrecchia - @verekia",
-  "license": "MIT"
+    "start": "node ."
+  }
 }
