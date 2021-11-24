@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
   "scripts": {
-    "start": "babel-node src"
+    "start": "babel-node src",
+             "test": "eslint src"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
