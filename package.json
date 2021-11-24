@@ -1,22 +1,32 @@
 {
+  "browserslist": [
+    "> 1%"
+  ],
   "name": "JavaScript-Web-Stack",
   "packageManager": "yarn@3.1.0",
   "version": "1.0.0",
   "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src"
+    "test": "eslint src && flow && jest --coverage"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.3.1",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^8.3.0",
     "eslint-config-airbnb": "^19.0.1",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "flow-bin": "^0.165.1",
     "glob": "^7.2.0",
+    "jest": "^27.3.1",
     "markdownlint": "^0.24.0"
   },
   "repository": "https://github.com/GitHub56TB/JavaScript-Web-Stack.git",

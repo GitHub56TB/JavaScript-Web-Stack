@@ -1,4 +1,5 @@
 node_modules/
+/coverage/
 
 #ignore yarn cache
 .yarn/cache
